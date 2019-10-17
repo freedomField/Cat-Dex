@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://freedomField.github.io/Cat-Dex",
+  "homepage": "https://freedomfield.github.io/Cat-Dex",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "npm run-script build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
